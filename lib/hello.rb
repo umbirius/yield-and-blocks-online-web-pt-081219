@@ -11,6 +11,7 @@ end
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
   if name.start_with?("T")
-    p "Hi, #{name}"
+    puts "Hi, #{name}"
   end 
+  p array
 end 
