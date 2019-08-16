@@ -5,7 +5,6 @@ def hello_t (array)
   yield array[i]
     i = i + 1
   end 
-  p array
 end
 
 # call your method here!
